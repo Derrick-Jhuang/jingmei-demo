@@ -220,6 +220,8 @@ let page = {
       isMobile ? itemClick : itemHover
 
     })();
+
+    jhuangPing.tabs();
   },
 }
 
