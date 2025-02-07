@@ -83,11 +83,12 @@
             </li>
             <li>
               <div class="lang | rel">
-                <div class="lang__toggle | font-size:20 cursor:pointer"><i class="icon-lang"></i></div>
+                <div class="lang__toggle | font-size:20 cursor:pointer ~all|.5s|ease {f:#0081B8}.active"><i
+                    class="icon-lang"></i></div>
                 <ul
-                  class="lang__list | hide reset abs top:100% left:50% translateX(-50%) font-size:16 text:center w:150 bg:#fff shadow:0|4|4|rgba(0,0,0,.3) {rel;block;w:full;p:8|10}>li>a {content:'';abs;bottom:0;left:5%;w:90%;h:1;bg:#dfdfdf}>li:not(:last-child)>a:before">
-                  <li><a href="">English</a></li>
-                  <li><a href="">繁體中文</a></li>
+                  class="lang__list | reset abs top:120% left:50% translateX(-50%) max-w:50 opacity:0 pointer-events:none font-size:16 text:center w:150 bg:#fff shadow:0|4|4|rgba(0,0,0,.3) ~all|.5s|ease {opacity:1;pointer-events:auto;top:100%}.show {rel;block;w:full;p:8|5}>li>a">
+                  <li><a href="">En</a></li>
+                  <li><a href="">中文</a></li>
                 </ul>
               </div>
             </li>
@@ -143,11 +144,10 @@
 
     <!-- Phetsarath -->
     <main class="l-wp:main">
-      <div class="l-wp | hide@>sm">
-        <h1 class="common-title">About</h1>
-      </div>
-
       <div class="abt-wp l-wp | max-w:1410 {flex;flex:col}@<=xs">
+        <h1 class="abt-title | reset block ff-phetsarath f:48@>lg f:35@>md f:30 font-weight:700 f:#1E305E text:center"
+          data-aos="fade-up" data-aos-easing="ease">About Us</h1>
+
         <section class="abt-section | flex ai:center flex:col@<=md order:1@<=xs">
           <div class="abt-section__pic | order:2@<=xs">
             <ul class="el-reset grid {grid-cols:2;gap:13}@>xs gap:10 lh:0 w:full_img@<=xs">

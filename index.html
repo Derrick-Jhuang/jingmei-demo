@@ -83,13 +83,12 @@
             </li>
             <li>
               <div class="lang | rel">
-                <div class="lang__toggle | font-size:20 cursor:pointer"><i class="icon-lang"></i></div>
-                <ul
-                  class="lang__list | hide reset abs top:100% left:50% translateX(-50%) font-size:16 text:center w:150 bg:#fff shadow:0|4|4|rgba(0,0,0,.3) {rel;block;w:full;p:8|10}>li>a {content:'';abs;bottom:0;left:5%;w:90%;h:1;bg:#dfdfdf}>li:not(:last-child)>a:before">
-                  <li><a href="">English</a></li>
-                  <li><a href="">繁體中文</a></li>
-                </ul>
-              </div>
+            <div class="lang__toggle | font-size:20 cursor:pointer ~all|.5s|ease {f:#0081B8}.active"><i class="icon-lang"></i></div>
+            <ul class="lang__list | reset abs top:120% left:50% translateX(-50%) max-w:50 opacity:0 pointer-events:none font-size:16 text:center w:150 bg:#fff shadow:0|4|4|rgba(0,0,0,.3) ~all|.5s|ease {opacity:1;pointer-events:auto;top:100%}.show {rel;block;w:full;p:8|5}>li>a">
+              <li><a href="">En</a></li>
+              <li><a href="">中文</a></li>
+            </ul>
+          </div>
             </li>
           </ul>
         </div>

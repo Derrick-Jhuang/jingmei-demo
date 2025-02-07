@@ -128,6 +128,13 @@ let page = {
       // whether animation should happen only once - while scrolling down
     });
 
+    (function langToggle() {
+      $('.lang__toggle').click(function () {
+        $(this).toggleClass('active')
+        $('.lang__list').toggleClass('show')
+      });
+    })();
+
     (function policy() {
       const _store = jhuangPing.getStore('jhuangPingStore')
       if (_store.isPlicyShow) {
